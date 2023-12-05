@@ -1,20 +1,23 @@
 import React from 'react';
-import {col, row, Container} from
+import { Button, Card, Col, Row, Container } from "react-bootstrap";
 let Counter = () => {
     return (
-    <>
-    <Container>
-        <row>
-            <col>
-            <p>Lor
-
-            </p>
-            </col>
-        </row>
-    </Container>
-</>
-
-   )
+      <>
+        <Container>
+          <Row>
+            <Col xs={4}>
+              <Card className="shadow-lg">
+                <Card.Body>
+                  <p className="display-3 ">Counter</p>
+                  <Button variant="success">++</Button>
+                  <Button variant="warning">--</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+      </>
+    );
 };
 
 export default Counter;
