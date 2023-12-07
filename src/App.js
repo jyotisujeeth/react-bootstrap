@@ -7,6 +7,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Counter from "./copmonents/count";
 import Register from "./copmonents/Register";
 
+import UserList from "./copmonents/UserList";
+
 import { container, Navbar } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
 let App = () => {
@@ -18,7 +20,8 @@ let App = () => {
         </container>
       </Navbar>
       {/* <Counter /> */}
-      <Register/>
+      {/* <Register/> */}
+      <UserList></UserList>
     </>
   );
 };
