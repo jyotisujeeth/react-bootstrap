@@ -2,16 +2,18 @@
 import React , { useState } from 'react';
 import { Button, Card, Col, Row, Container } from "react-bootstrap";
 let Counter = () => {
-  let[state, setState] = useState( 0);
+  let[state, setState] = useState( {
+    Count : 0
+ } );
   
   let incr = () =>{
-    setState ( value {
+    setState (  {
       count:state.count + 1
     });
   }; 
   
   let decr = () =>{
-    setState( value {
+    setState(  {
       count:state.count - 1
     });
   }; 
