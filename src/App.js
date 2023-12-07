@@ -5,6 +5,7 @@ import Badge from "react-bootstrap/Badge";
 
 import Accordion from "react-bootstrap/Accordion";
 import Counter from "./copmonents/count";
+import Register from "./copmonents/Register";
 
 import { container, Navbar } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
@@ -16,7 +17,8 @@ let App = () => {
           <Navbar.Brand href="/">React Bootstrap</Navbar.Brand>
         </container>
       </Navbar>
-      <Counter />
+      {/* <Counter /> */}
+      <Register/>
     </>
   );
 };
